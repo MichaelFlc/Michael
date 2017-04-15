@@ -1,0 +1,72 @@
+{
+  "current_page": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": "5552bfac695a320fa6040000",
+      "state": "已退回",
+      "title": "米兰世博开幕 商家营销发力",
+      "author": "张远岸 实习记者 王博",
+      "created_at": "2015-05-13T11:06:20.398+08:00",
+      "origin_website": "财新网",
+      "thumbnail": "",
+      "summary": "世博会是主办国呈现主办能力、展示国家和城市形象的重要窗口。而历来以厚重的历史感、奢华形象示人的意大利，更是为此煞费苦心",
+      "url": "http://localhost:3000/editors/information/5552bfac695a320fa6040000.json",
+      "editor": {
+        "id": "5552bd4f695a320fa6020000",
+        "name": "方会磊",
+        "job_no": ""
+      },
+      "workflow_events": [
+        {
+          "name": "编辑",
+          "code": "edit"
+        }
+      ]
+    },
+    {
+      "id": "554c202f695a321e40120000",
+      "state": "已退回",
+      "title": "米兰世博开幕 商家营销发力",
+      "author": "张远岸 实习记者 王博",
+      "created_at": "2015-05-08T10:32:15.352+08:00",
+      "origin_website": "财新网",
+      "thumbnail": "",
+      "summary": "世博会是主办国呈现主办能力、展示国家和城市形象的重要窗口。而历来以厚重的历史感、奢华形象示人的意大利，更是为此煞费苦心",
+      "url": "http://localhost:3000/editors/information/554c202f695a321e40120000.json",
+      "editor": {
+        "id": "554b5bc0695a321abe000000",
+        "name": "大白",
+        "job_no": ""
+      },
+      "workflow_events": [
+        {
+          "name": "编辑",
+          "code": "edit"
+        }
+      ]
+    },
+    {
+      "id": "554b8dd7695a321e40020000",
+      "state": "已退回",
+      "title": "职场赢家告诉你 情商和技能哪个更重要",
+      "author": "席春慧",
+      "created_at": "2015-05-08T00:07:51.089+08:00",
+      "origin_website": "界面",
+      "thumbnail": "http://img.jiemian.com/101/original/20150506/143088611475076300_a580x330.jpg",
+      "summary": "我们不会只给你一个圆滑的答案。赢家们说，要用人脉找工作，凭实力留下来，靠情商升上去。",
+      "url": "http://localhost:3000/editors/information/554b8dd7695a321e40020000.json",
+      "editor": {
+        "id": "554b5be8695a321abe030000",
+        "name": "小白",
+        "job_no": null
+      },
+      "workflow_events": [
+        {
+          "name": "编辑",
+          "code": "edit"
+        }
+      ]
+    }
+  ]
+}

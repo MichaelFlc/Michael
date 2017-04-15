@@ -1,0 +1,116 @@
+{
+  "current_page": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": "554c2a45695a321e40250000",
+      "state": "待发布",
+      "title": "国际油价冲上了年内最高点 国内成品油下周一或迎“三连涨”",
+      "author": "庄键",
+      "created_at": "2015-05-08T11:15:17.326+08:00",
+      "origin_website": "界面",
+      "thumbnail": "http://img.jiemian.com/101/original/20150506/14308890126117600_a580x330.jpg",
+      "summary": "国际原油价格正在缓慢的复苏中，尽管其未来走势并不明朗，但国内成品油价格在下周一调高已是大概率事件，涨幅约在每升0.20元左右。",
+      "url": "http://localhost:3000/editors/information/554c2a45695a321e40250000.json",
+      "editor": {
+        "id": "554b5bc0695a321abe000000",
+        "name": "大白",
+        "job_no": ""
+      },
+      "workflow_events": [
+        {
+          "name": "发布",
+          "code": "publish"
+        }
+      ]
+    },
+    {
+      "id": "554c2996695a321e401e0000",
+      "state": "待发布",
+      "title": "土地交易大厅又热闹起来 连久违的央企通用地产也有了动静",
+      "author": "刘诗洋",
+      "created_at": "2015-05-08T11:12:22.031+08:00",
+      "origin_website": "界面",
+      "thumbnail": "http://img.jiemian.com/101/original/20150506/143088732636112800_a580x330.jpg",
+      "summary": "五一假期期间，北京楼市成交量大爆发。在“退房令”之后，手握牌照的通用地产也开始觉醒了。",
+      "url": "http://localhost:3000/editors/information/554c2996695a321e401e0000.json",
+      "editor": {
+        "id": "554b5be8695a321abe030000",
+        "name": "小白",
+        "job_no": null
+      },
+      "workflow_events": [
+        {
+          "name": "发布",
+          "code": "publish"
+        }
+      ]
+    },
+    {
+      "id": "554c25b0695a321e40190000",
+      "state": "待发布",
+      "title": "肯尼亚高校开设反恐必修课",
+      "author": " 邓耀敏",
+      "created_at": "2015-05-08T10:55:44.378+08:00",
+      "origin_website": "财新网",
+      "thumbnail": "",
+      "summary": "肯尼亚东北部一所大学遭恐怖袭击一个多月后，肯西部高校基西大学5日宣布将开设专门的反恐课程，以应对可能针对高校的恐怖袭击威胁",
+      "url": "http://localhost:3000/editors/information/554c25b0695a321e40190000.json",
+      "editor": {
+        "id": "554b5be8695a321abe030000",
+        "name": "小白",
+        "job_no": null
+      },
+      "workflow_events": [
+        {
+          "name": "发布",
+          "code": "publish"
+        }
+      ]
+    },
+    {
+      "id": "554c202f695a321e40100000",
+      "state": "待发布",
+      "title": "米兰世博开幕 商家营销发力",
+      "author": "张远岸 实习记者 王博",
+      "created_at": "2015-05-08T10:32:15.241+08:00",
+      "origin_website": "财新网",
+      "thumbnail": "",
+      "summary": "世博会是主办国呈现主办能力、展示国家和城市形象的重要窗口。而历来以厚重的历史感、奢华形象示人的意大利，更是为此煞费苦心",
+      "url": "http://localhost:3000/editors/information/554c202f695a321e40100000.json",
+      "editor": {
+        "id": "554b5bc0695a321abe000000",
+        "name": "大白",
+        "job_no": ""
+      },
+      "workflow_events": [
+        {
+          "name": "发布",
+          "code": "publish"
+        }
+      ]
+    },
+    {
+      "id": "554b8f3b695a321e40040000",
+      "state": "待发布",
+      "title": "找工作当然要靠勾搭 附朋友圈求职最强Tips",
+      "author": "汤玉婷",
+      "created_at": "2015-05-08T00:13:47.392+08:00",
+      "origin_website": "界面",
+      "thumbnail": "http://img.jiemian.com/101/original/20150506/143088380817408600_a580x330.jpg",
+      "summary": "你的下一份工作可能就来自你的人脉圈，所以快去勾搭啊！",
+      "url": "http://localhost:3000/editors/information/554b8f3b695a321e40040000.json",
+      "editor": {
+        "id": "554b5be8695a321abe030000",
+        "name": "小白",
+        "job_no": null
+      },
+      "workflow_events": [
+        {
+          "name": "发布",
+          "code": "publish"
+        }
+      ]
+    }
+  ]
+}
