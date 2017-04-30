@@ -1,0 +1,1 @@
+cmd_/home/michael/workspace/node-v7.9.0/out/Release/obj.host/v8_inspector_compress_protocol_json.stamp := touch /home/michael/workspace/node-v7.9.0/out/Release/obj.host/v8_inspector_compress_protocol_json.stamp
