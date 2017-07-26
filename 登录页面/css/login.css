@@ -13,11 +13,20 @@ body{
 	box-shadow: 
 }
 .login{
-	padding: 20px 37%;
+	padding: 10px 37%;
 	font-size: 18px;
 	width: 72px;
 	font-size: 18px;
 	color: #333;
+}
+.login .mobile{
+	width: 250px;
+	display: block;
+	font-size: 13px;
+	position: relative;
+	top: 8px;
+	left: -82px;
+	color: #f00;
 }
 input{
 	margin:3% 9%; 

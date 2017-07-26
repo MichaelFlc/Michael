@@ -51,6 +51,15 @@ hr{
 	margin:0 auto;
 	text-align:center;
 }
+.form .effect{
+	margin: -3px 24px;
+	position: relative;
+	top: 10px;
+	left: -43px;
+}
+.form .effect img{
+	margin-right: 8px;
+}
 .form p img{
 	margin:10px 104px;
 }
@@ -59,10 +68,29 @@ hr{
 	left: 87px;
 	top: -110px;
 }
+.form a{
+	margin-left: 37px;
+	position: relative;
+	left: -12%;
+}
+.form .aa{
+	color: #f00;
+}
 .form .true{
 	margin-left: 53px;
 	position: relative;
 	left:-48px;
+}
+.form .true_01{
+	width: 104px;
+	height: 36px;
+	position: relative;
+	left: -35px;
+	background: #F6F7FB;
+}
+.form .true_02{
+	position: relative;
+	left: -59px;
 }
 .form .ipt{
 	width: 240px;
