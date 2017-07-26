@@ -1,1 +1,0 @@
-cmd_/home/michael/workspace/node-v7.9.0/out/Release/obj.target/deps/v8_inspector/src/inspector/inspector_injected_script.stamp := touch /home/michael/workspace/node-v7.9.0/out/Release/obj.target/deps/v8_inspector/src/inspector/inspector_injected_script.stamp
