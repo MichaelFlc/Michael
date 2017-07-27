@@ -27,11 +27,18 @@ hr{
 #div{
 	text-align: center;
 }
+<<<<<<< HEAD
 .accout_01,.accout_02,.accout_03,.accout_04{
 	display: inline-block;
 	position: relative;
 	top: 10px;
 	color:#87b8f3;
+=======
+.accout_01,.accout_02,.accout_03{
+	display: inline-block;
+	position: relative;
+	top: 10px;
+>>>>>>> 80437dd44f853bdc6f93205205d1563ff28f7ca8
 }
 .accout_01,.accout_02{
 	left:-28px;
@@ -42,6 +49,7 @@ hr{
 }
 .accout_03{
 	float: right;
+<<<<<<< HEAD
 	left:-22px;
 	color: #87b8f3;
 }
@@ -55,6 +63,11 @@ hr{
 	position: relative;
 	left: -24%;
 }
+=======
+	left:-11px;
+	color: #87b8f3;
+}
+>>>>>>> 80437dd44f853bdc6f93205205d1563ff28f7ca8
 .form{
 	padding-top:21px;
 	width: 550px;
