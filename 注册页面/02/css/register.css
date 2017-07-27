@@ -75,6 +75,10 @@ hr{
 }
 .form .aa{
 	color: #f00;
+	font-size: 14px;
+	position: relative;
+	left: 41%;
+	top: -7%;
 }
 .form .true{
 	margin-left: 53px;
