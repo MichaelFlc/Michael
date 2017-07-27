@@ -22,4 +22,27 @@ $(document).ready(function(){
 		}
 	});
 
+	// $('span').click(function(){
+	// 	$.ajax({
+	// 		url:'http://192.168.1.182:8080/yxjz/login/verifyCode',
+	// 		type:'GET',
+	// 		dateType:'image/jpeg',
+	// 		data:({
+	// 			'username':'user-manager',
+	// 			'pwd':'user-manager'
+	// 		}),
+	// 		success:function(data){
+	// 			$('span img').src='http://192.168.1.182:8080/yxjz/login/verifyCode';
+	// 		}
+	// 	});
+	// });
+	
+		// function changeImg(){
+		// 	$('span img').  
+		// 	img.src = "http://192.168.1.182:8080/yxjz/login/verifyCode";
+		// } 
+		$('span img').click(function(){
+			$(this).attr('src',"http://192.168.1.100:8080/yxjz/login/verifyCode?date=" + new Date());
+		});
+
 });

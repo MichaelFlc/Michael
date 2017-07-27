@@ -45,8 +45,6 @@ span{
 	line-height: 36px;
 	text-align: center;
 	margin-left: -24px;
-	position: relative;
-	top: 3%;
 }
 span:hover{
 	cursor: pointer;

@@ -78,7 +78,7 @@ p{
 #div{
 	text-align: center;
 }
-.accout_01,.accout_02,.accout_03{
+.accout_01,.accout_02,.accout_03,.accout_04{
 	display: inline-block;
 	position: relative;
 	top: 10px;
@@ -90,10 +90,21 @@ p{
 	float: left;
 	color: #87B8F3;
 }
+.accout_02{
+	/*float: left;
+	color: #87B8F3;*/
+	position: relative;
+	left:-14%;
+}
 .accout_03{
 	float: right;
 	left:-11px;
-	
+}
+.accout_04{
+	/*float: left;
+	color: #87B8F3;*/
+	position: relative;
+	left: 7%;
 }
 
 

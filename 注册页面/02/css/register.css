@@ -5,7 +5,7 @@ body{
 .objdiv{
 	background: #fff;
 	width: 1000px;
-	height: 884px;
+	height: 940px;
 	border-radius: 8px;
 	margin:80px auto;
 }
@@ -27,7 +27,7 @@ hr{
 #div{
 	text-align: center;
 }
-.accout_01,.accout_02,.accout_03{
+.accout_01,.accout_02,.accout_03,.accout_04{
 	display: inline-block;
 	position: relative;
 	top: 10px;
@@ -43,10 +43,18 @@ hr{
 	float: right;
 	left:-11px;
 }
+.accout_02{
+	position: relative;
+	left: -14%;
+}
+.accout_04{
+	position: relative;
+	left: 7%;
+}
 .form{
 	padding-top:21px;
 	width: 550px;
-	height: 600px;
+	height: 744px;
 /*	border: 1px solid orange; */
 	margin:0 auto;
 	text-align:center;
@@ -75,6 +83,10 @@ hr{
 }
 .form .aa{
 	color: #f00;
+	font-size: 14px;
+	position: relative;
+	left: 41%;
+	top: -7%;
 }
 .form .true{
 	margin-left: 53px;
