@@ -1,74 +1,97 @@
-body{
-	background:url(../image/bj.png)no-repeat;
-	background-size:cover; 
-	overflow-y: hidden;
+*{
+	margin: 0;
+	padding: 0;
+
 }
-.objdiv{
-	width:300px;
-	height: 330px;
-	/*border: 1px solid #f00;*/
-	border-radius: 8px;
-	background: #fff;
-	margin:9% auto;
-	box-shadow: 
+.div_01{
+	background: #3e89d5;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
 }
-.login{
-	padding: 10px 37%;
+.div_01 h2,.div_01 p span{
+	color: #E8F0F8;
+}
+.div_01 h2{
 	font-size: 18px;
-	width: 72px;
-	font-size: 18px;
+	margin-left: 22px;
+}
+.div_01 p{
+	float: right;
+	margin-right: 20px;
+}
+.div_01 p img{
+	position: relative;
+	top: 6px;
+	right: -10%;
+	margin-right:30px;
+}
+.div_01 p .div_01_img{
+	position: relative;
+	top: 3%;
+	right: -2%;
+}
+.div_01 h2,.div_01 p{
+	display: inline-block;
+}
+.div_02{
+	width:180px;
+	height: 860px;
+	background: #33485d;
+	float: left;
+}
+.div_02 li{
+	height: 50px;
+	list-style-type:none;
+	/*text-align: center;*/
+	line-height: 50px;
+	padding: 2% 13%;
+	/*border-bottom: 1px solid #f6f6f6;*/
+}
+.div_02 ._01{
+	/*display: none;*/
+}
+.div_02 ._01 a{ 
+	margin-left:15%;
+}
+.div_02 .AA a{
+	color: #298cef;
+	font-size: 14px;
+	font-weight: bold;
+}
+.div_02 .div_02_li{
+	background: #2A3C49;
+}
+.div_02 li img{
+	position: relative;
+	top: 9%;
+	left: -6%;
+}
+.div_02 li a{
+	color: #D4D7D9;
+	text-decoration:none;
+}
+.div_03{
+	border: 1px solid #f00;
+	width: 99%;
+	height: 858px;
+	margin-top:25px;
+	background: #f6f6f6;
+}
+.div_03 p{
+	font-size: 12px;
 	color: #333;
 }
-.login .mobile{
-	width: 250px;
-	display: block;
-	font-size: 13px;
-	position: relative;
-	top: 8px;
-	left: -82px;
-	color: #f00;
-}
-input{
-	margin:3% 9%; 
-	border-radius: 2px;
-	width: 240px;
-	height: 36px;
-}
-input:nth-child(4){
-	width:149px;
-}
-span{
-	display: inline-block;
-	width: 80px;
-	height: 36px;
-	background: #efefef;
-	line-height: 36px;
-	text-align: center;
-	margin-left: -24px;
-}
-span:hover{
-	cursor: pointer;
-}
-button{
-	margin:3% 9%; 
-	border-radius: 2px;
-	width: 240px;
-	height: 36px;
-	background: #298cef;
-	color: #fff;
-	font-size:18px;
-	border-radius: 2px;
-	cursor: pointer;
-}
-p{
-	cursor: pointer;
-	font-size: 12px;
-	color: #333333;
-	margin:1px 31px;
-	display: inline-block;
-}
-.forgetpwd{
-	float: right;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 

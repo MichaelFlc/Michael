@@ -27,7 +27,7 @@ hr{
 #div{
 	text-align: center;
 }
-.accout_01,.accout_02,.accout_03{
+.accout_01,.accout_02,.accout_03,.accout_04{
 	display: inline-block;
 	position: relative;
 	top: 10px;
@@ -39,13 +39,22 @@ hr{
 .accout_01{
 	float: left;
 }
+.accout_02{
+	position: relative;
+	left: -14%;
+}
 .accout_03{
 	float: right;
-	left:-11px;
+	left:-20px;
+	/*color: #87b8f3;*/
+}
+.accout_04{
+	position: relative;
+	left: 7%;
 	color: #87b8f3;
 }
 .form{
-	padding-top:21px;
+	padding-top:50px;
 	width: 550px;
 	height: 600px;
 	/*border: 1px solid orange;*/ 
@@ -53,29 +62,29 @@ hr{
 	text-align:center;
 	margin-left: 188px;
 }
-.form h1{
-	display: inline-block;
-	font-weight: normal;
-	color: #333;
+.form .name{
+	position: relative;
+	top: 1%;
+	left: 9%;
 }
 .form h3{
-	color: #999;
-	margin-top: -7px;
-	padding-left: 123px;
+	
 }
 .form #h3_02{
-	text-indent: 25px;
+	
 }
 .form img{
+	margin-left: 40px;
+}
+.form span{
 	position: relative;
-	top: 10px;
-	left:-10px;
+	left: 6%;
+	top: -83px;
 }
-.form p span{
-	
-}
-.form .true{
-	
+.form h5{
+	color: #ccc;
+	position: relative;left: 6%;
+	top: -6%;
 }
 .form .ipt{
 	
@@ -83,11 +92,19 @@ hr{
 .form input:nth-child(1),input:nth-child(2),input:nth-child(3),input:nth-child(5){
 	
 }
-.form .forever{
-	
+.form .cs{
+	position: relative;
+	left: 9%;
+	top: 9px;
+	margin: 1% 6%;
 }
 .form input{
-	
+	width: 244px;
+	height: 36px;
+	position: relative;
+	top: 3%;
+	left: 6%;
+	margin: 5%;
 }
 span:hover{
 	
@@ -96,7 +113,15 @@ span{
 	
 }
 button{
-	
+	width: 244px;
+	height: 36px;
+	background: #2A8DEE;
+	border-radius: 2px;
+	color: #DFEBFc;
+	font-size: 16px;
+	margin-right: -24%;
+	position: relative;
+	top: -46px;
 }
 p{
 	cursor: pointer;
@@ -104,6 +129,7 @@ p{
     color: #333333;
     text-align: right;
     margin: 1px 14px;
+    display: inline-block;
 }
 
 
