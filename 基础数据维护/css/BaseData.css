@@ -85,6 +85,7 @@
 	text-indent: 20px;
 }
 .div_03_01{
+<<<<<<< HEAD
 	/*border: 1px solid orange;*/
 	width: 88%;
 	height: 774px;
@@ -145,6 +146,12 @@
 .div_03_01 table .nine{
 	border-collapse: collapse;
 	border-bottom: none;
+=======
+	border: 1px solid orange;
+	width: 83%;
+	height: 774px;
+	margin-left:15%;
+>>>>>>> a17447af5bf29347ea252d2c0af04b978aa7563a
 }
 .div_03_01 table .nine{
 	border-collapse: collapse;
@@ -185,7 +192,6 @@
 .div_03_01 table .save{
 	color: #f00;
 }
-
 
 
 
