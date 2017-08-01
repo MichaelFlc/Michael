@@ -89,34 +89,37 @@
 	width: 88%;
 	height: 774px;
 	margin-left:10.6%;
-	text-indent: ;
+	/*text-indent: ;*/
 }
 .div_03_01 table{
 	/*border-bottom: 1px solid #ccc;*/
 	border-collapse: collapse;
 	text-indent: -1.5%;
 }
-.div_03_01 table button{
-	width:80px;
-	height: 24px;
-	color: #787b7b;
-	background: #f5f8fa;
-	border:1px solid #e8e8e8;
-	border-radius: 2px;
-	font-size: 12px;
-	cursor: pointer;
+.div_03_01 table .second{
+	background: #F5F9FD;
+}
+.div_03_01 table .second .ipt input{
+	width: 39%;
+	height: 56%;
+	background:url(image/img-sousuo.png)no-repeat;
+	/*background: #56cc9d;*/
+}
+.div_03_01 table .select_all input{
+
+}
+.div_03_01 table .second button{
+	width: 30%;
 }
 .div_03_01 table input{
-	width: 47%;
-	height: 33px;
-	padding-left: 11px;
+	
 }
 .div_03_01 table tr{
-	line-height: 55px;
+	line-height: 52px;
 	border-bottom: 1px solid #e8e8e8;
 }
 .div_03_01 table .small_a{
-	color: #999;
+	
 }
 .div_03_01 table td{
 	text-align:center;
@@ -131,25 +134,26 @@
 	background: #fff;
 }
 .div_03_01 table .second,.four,.five,.nine,.thirteen{
-	background: #F5F9FD;
+	
 }
 .div_03_01 table .thr{
 	background: #D9EDFF;
+
 }
 .div_03_01 table .four{
+	background: #fff;
 	border-collapse: collapse;
-	border-bottom: 1px solid #fff;
+	border-bottom: none;
+	height: 80px;
 }
 /*.div_03_01 table .four_img{
 	
 }*/
 .div_03_01 table .eight{
-	border-collapse: collapse;
-	border-bottom: none;
+	
 }
 .div_03_01 table .nine{
-	border-collapse: collapse;
-	border-bottom: none;
+	
 /*	border: 1px solid orange;*/
 /*	width: 83%;
 	height: 774px;
@@ -160,25 +164,25 @@
 	border-bottom: none;
 }*/
 .div_03_01 table .five{
+	background: #F5F9FD;
+	height: 80px;
 	border-collapse: collapse;
 	border-bottom: none;
 }
 .div_03_01 table .twelve{
-	border-collapse: collapse;
-	border-bottom: none;
+	
 }
 .div_03_01 table .thirteen{
-	border-collapse: collapse;
-	border-bottom: none;
+	font-size: 15px;
 }
 .div_03_01 table .second .add{
 	width: 100px;
-	height: 40px;
+	height: 52px;
 	background: #2A8DEE;
 	font-size: 12px;
 	color: #fff;
 	text-align: center;
-	line-height: 40px;
+	line-height: 52px;
 	float: right;
 }
 .div_03_01 table .first .fl{
@@ -193,7 +197,7 @@
 	margin:0 22px;
 }
 .div_03_01 table .save{
-	color: #f00;
+	
 }
 
 
