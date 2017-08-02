@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>添加商品</title>
+		<link type="text/css" rel="stylesheet" href="css/Commodity_add.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/Commodity_add.js"></script>
+	</head>
+	<body>
+		<div class="div">
+			<div class="div_01">
+				<h2>可莎蜜儿旗舰店</h2>
+				<p>
+					<img src="image/img-xiaoxi.png" alt="" />
+					<img src="image/img-touxiang.png" alt="" />
+					<span>欢迎您，admin</span>
+					<img class="div_01_img" src="image/btn-sanjiao.png" alt="" />
+				</p>
+			</div>
+			<div class="div_02">
+				<li><img src="image/img-dpguanli.png" alt=""><a href="javascript:void(0);">店铺信息管理</a></li>
+				<li><img src="image/img-jyguanli.png" alt=""><a href="javascript:void(0);">交易信息管理</a></li>
+				<li class="div_02_li BB"><img src="image/img-spguanli.png" alt=""><a href="javascript:void(0);">商品管理</a></li>
+				<li class="div_02_li _01" style="display: none;"><a href="javascript:void(0);">商品维护</a></li>
+				<li class="div_02_li _01 AA" style="display: none;"><a href="javascript:void(0);">基础数据维护</a></li>
+				<li><img src="image/img-zzhguanli.png" alt=""><a href="javascript:void(0);">子账号管理</a></li>
+			</div>
+			<div class="div_03">
+				<p>首页&nbsp;&gt;&nbsp;厂商管理&nbsp;&gt;&nbsp;商品管理&nbsp;&gt;&nbsp;商品维护&nbsp;&gt;&nbsp;添加商品</p>
+				<div class="div_03_01">
+					<span class="spn"><a href="javascript:void();">配置默认选项</a></span>
+					<div class="First">
+						<h4>1.宝贝基本信息</h4>
+						<div><label for="label">*商品名称：</label><input type="text" /> 0/60</div> <br /><br />
+						<div class="one"><label for="label">*商品图片：</label>请上传800*800以上图片，大小不超过1M</div><br />
+						<img src="image/btn-shangchuantupian.png" alt="" />
+						<img src="image/btn-shangchuantupian.png" alt="" />
+						<img src="image/btn-shangchuantupian.png" alt="" />
+						<img src="image/btn-shangchuantupian.png" alt="" />
+						<img src="image/btn-shangchuantupian.png" alt="" />
+						<span>*宝贝主图</span>
+					</div>
+					<div class="Second">
+						<h4>2.宝贝规格价位</h4>
+						<h3>*商品规格：</h3>
+						<div class="_01">
+							<div class="aa">
+								<span>计价单位</span><a href="javascript:void();">修改计价单位</a>
+							</div>
+							<div class="bb">
+								<span>
+									<input type="checkbox" />
+									<input class="ipt" type="text" />
+									m<sup>2</sup>
+								</span>
+								<span>
+									<input type="checkbox" />
+									<input class="ipt" type="text" />
+									m<sup>2</sup>
+								</span>
+								<span>
+									<input type="checkbox" />
+									<input class="ipt" type="text" />
+									m<sup>2</sup>
+								</span>
+							</div>
+							<div class="cc">
+								<span>颜色分类：</span>	
+							</div>
+							<div class="dd">
+								<span>
+									<input type="checkbox" />
+									<input class="ipt_01" type="text" value="红色" />
+								</span>
+								<span>
+									<input type="checkbox" />
+									<input class="ipt_01" type="text" value="红蓝色" />
+								</span><br />
+								<span>
+									<input type="checkbox" />
+									<input class="ipt_01" type="text" value="亚麻灰" />
+								</span>
+								<span>
+									<input type="checkbox" />
+									<input class="ipt_01" type="text" />
+								</span>
+							</div>
+						</div>
+						<!-- <table cellpadding="0" cellpadding="0">
+							<tr class="tbl_01">
+								<td>计较单位</td>
+								<td>修改计价单位</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" />
+									<input type="text" />
+									m<sup>2</sup>
+								</td>
+								<td>
+									<input type="checkbox" />
+									<input type="text" />
+									m<sup>2</sup>
+								</td>
+								<td>
+									<input type="checkbox" />
+									<input type="text" />
+									m<sup>2</sup>
+								</td>
+							</tr>
+							<tr>
+								<td>颜色分类：</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" />
+									<input type="text" value="红色" />
+								</td>
+								<td>
+									<input type="checkbox" />
+									<input type="text" value="蓝色" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" />
+									<input type="text" value="亚麻灰" />
+								</td>
+								<td>
+									<input type="checkbox" />
+									<input type="text" />
+								</td>
+							</tr>
+						</table> -->
+						<h3>*价格库存：</h3>
+						<table border="1" cellspacing="0" cellpadding="0">
+							<tr>
+								<th>计价单位</th>
+								<th>颜色分类</th>
+								<th>单价（元）</th>
+								<th>库存（件）</th>
+								<th>重量（KG）</th>
+							</tr>
+							<tr>
+								<td>1m<sup>2</sup></td>
+								<td>红色</td>
+								<td>1</td>
+								<td>1</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>蓝色</td>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>亚麻灰</td>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>红色</td>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>蓝色</td>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>亚麻灰</td>
+								<td>1</td>
+								<td>1</td>
+								<td>1</td>
+							</tr>
+						</table>
+					</div>
+					<div class="Thrd"></div>
+					<div class="Four"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
