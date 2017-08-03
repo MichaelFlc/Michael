@@ -44,7 +44,7 @@
 					</div>
 					<div class="Second">
 						<h4>2.宝贝规格价位</h4>
-						<h3>*商品规格：</h3>
+						<h3><span class="_img">*</span>商品规格：</h3>
 						<div class="_01">
 							<div class="aa">
 								<span>计价单位</span><a href="javascript:void();">修改计价单位</a>
@@ -88,109 +88,106 @@
 								</span>
 							</div>
 						</div>
-						<!-- <table cellpadding="0" cellpadding="0">
-							<tr class="tbl_01">
-								<td>计较单位</td>
-								<td>修改计价单位</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>
-									<input type="checkbox" />
-									<input type="text" />
-									m<sup>2</sup>
-								</td>
-								<td>
-									<input type="checkbox" />
-									<input type="text" />
-									m<sup>2</sup>
-								</td>
-								<td>
-									<input type="checkbox" />
-									<input type="text" />
-									m<sup>2</sup>
-								</td>
-							</tr>
-							<tr>
-								<td>颜色分类：</td>
-							</tr>
-							<tr>
-								<td>
-									<input type="checkbox" />
-									<input type="text" value="红色" />
-								</td>
-								<td>
-									<input type="checkbox" />
-									<input type="text" value="蓝色" />
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<input type="checkbox" />
-									<input type="text" value="亚麻灰" />
-								</td>
-								<td>
-									<input type="checkbox" />
-									<input type="text" />
-								</td>
-							</tr>
-						</table> -->
-						<h3>*价格库存：</h3>
+						<h3><span class="_img">*</span>价格库存：</h3>
 						<table border="1" cellspacing="0" cellpadding="0">
-							<tr>
+							<tr class="first">
 								<th>计价单位</th>
-								<th>颜色分类</th>
+								<th class="color">颜色分类</th>
 								<th>单价（元）</th>
 								<th>库存（件）</th>
 								<th>重量（KG）</th>
 							</tr>
 							<tr>
-								<td>1m<sup>2</sup></td>
-								<td>红色</td>
-								<td>1</td>
-								<td>1</td>
-								<td>2</td>
+								<td rowspan="3">1m<sup>2</sup></td>
+								<td class="color">红色</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>蓝色</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td class="color">蓝色</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>亚麻灰</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td class="color">亚麻灰</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>红色</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td rowspan="3">5m<sup>2</sup></td>
+								<td class="color">红色</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>蓝色</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td class="color">蓝色</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td>1</td>
-								<td>亚麻灰</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td class="color">亚麻灰</td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 						</table>
 					</div>
-					<div class="Thrd"></div>
-					<div class="Four"></div>
+					<div class="Thrd">
+						<h4>3.宝贝详情</h4>
+						<h5><span class="_img">*</span>上传详情页图片：<span class="_img02">可上传多张图片，每个图片大小不超过1M</span></h5>
+						<span class="spn_01 _02"></span>
+						<img class="_02" src="image/btn-shangchuantupian.png" alt="" />
+					</div>
+					<div class="Four">
+						<h4>4.其他信息</h4>
+						<div class="include">
+							<h5><span class="_img">*</span>商品类目：<span class="spn_01">最多添加三个类目</span></h5>
+							<div class="_div">
+								<input type="checkbox" /><input class="_01" type="text" value="家装主材 &gt; 地板 &gt; 实木地板"><br /><input type="checkbox" /><input class="_01" type="text" />
+							</div>
+							<div class="div_01_aa">
+								<span class="_img">*</span>商品分类：
+								<input type="checkbox" /> 地板-木地板
+								<input type="checkbox" /> 地板-竹地板
+								<input type="checkbox" /> 五金件
+								<input type="checkbox" /> 瓷砖
+							</div>
+							<div class="div_02_bb">
+								<span class="_img">*</span>发货城市：
+								<input class="_city" type="text" />
+							</div>
+							<div class="div_03_cc">
+								<span class="_img">*</span>运费模版：
+								<input class="_city" type="text" />
+								<a href="javascript:void();">新建运费模版</a>
+							</div>
+							<div class="div_04">
+								<span class="_img">*</span>商品标签：
+								<input type="radio" />包邮
+								<input type="radio" />精选
+								<input type="radio" />特卖
+							</div>
+							<div class="div_05">
+								<span class="_img">*</span>商品原价：
+								<input class="_city" type="text" />
+							</div>
+							<div class="div_06">
+								<span class="_img">*</span>商品服务：
+								<input class="_city" type="text" />
+							</div>
+							<div class="div_07">
+								<span class="_img">*</span>发布状态：
+								<input type="radio" />立即上架
+								<input type="radio" />放入仓库
+							</div>
+						</div>
+						<button>创建商品</button>
+					</div>
 				</div>
 			</div>
 		</div>
