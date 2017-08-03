@@ -115,8 +115,9 @@
 }
 .div_03_01 ul li{
 	list-style-type: none;
+	margin: 1% 4%;
 }
-.div_03_01 .First input{
+.div_03_01 ul li input{
 	
 }
 .div_03_01 .First div{
