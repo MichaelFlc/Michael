@@ -109,24 +109,33 @@ hr{
 span:hover{
 	
 }
-span{
-	
+.form button{
+	font-family: '微软雅黑';
+	border-radius: 2px;
+	font-size: 16px;
 }
-button{
-	width: 244px;
+.form .sub{
+	width: 130px;
 	height: 36px;
 	background: #2A8DEE;
-	border-radius: 2px;
 	color: #DFEBFc;
-	font-size: 16px;
 	margin-right: -24%;
 	position: relative;
 	top: -46px;
 }
+.form .prev{
+	width: 110px;
+	height: 36px;
+	background: #F5F8FA;
+	color: #9A9A9B;
+	border: 1px solid #ccc;
+	position: relative;
+	top: -45px;
+}
 p{
 	cursor: pointer;
     font-size: 12px;
-    color: #333333;
+    color: #333;
     text-align: right;
     margin: 1px 14px;
     display: inline-block;

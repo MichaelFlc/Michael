@@ -5,7 +5,7 @@ body{
 .objdiv{
 	background: #fff;
 	width: 1000px;
-	height: 940px;
+	height: 1500px;
 	border-radius: 8px;
 	margin:80px auto;
 }
@@ -118,11 +118,21 @@ hr{
 .form input{
 	margin:7.5px 0;
 }
-span:hover{
-	
+.form .company{
+	width: 630px;
+	height: auto;
+	border: 1px solid #ccc;
+	text-align: center;
 }
-span{
-	
+.form .company input{
+	width: 350px;
+	height: 36px;
+}
+.form .company h3{
+	text-align: left;
+}
+.form .company .IdCard{
+	margin-left: 48px;
 }
 button{
 	margin: 3% 35%;
