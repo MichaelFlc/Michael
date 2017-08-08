@@ -117,8 +117,6 @@ hr{
 	position: relative;
 	left: -59px;
 }
-.form .ip
-}
 .form input:nth-child(1),input:nth-child(2),input:nth-child(3),input:nth-child(5){
 	width: 240px;
 	height: 36px;
@@ -233,7 +231,6 @@ hr{
 	background: #298cef;
 	color:#fff;
 }
-
 .form button{
 	border: 1px solid #ccc;
     border-radius: 2px;
