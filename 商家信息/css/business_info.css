@@ -1,61 +1,123 @@
-body{
-	background: url(../image/bj.png)no-repeat;
-	background-size:cover; 
+*{
+	margin: 0;
+	padding: 0;
 }
-.objdiv{
-	background: #fff;
-	width: 1000px;
-	height: 1586px;
-	border-radius: 8px;
-	margin:80px auto;
+.div_01{
+	background: #3e89d5;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
 }
-.top{
-	width: 848px;
-	height: 50px;
-	padding: 50px 75px;
+.div_01 h2,.div_01 p span{
+	color: #E8F0F8;
 }
-.top img{
+.div_01 h2{
+	font-size: 18px;
+	margin-left: 22px;
+}
+.div_01 p{
+	float: right;
+	margin-right: 20px;
+}
+.div_01 p img{
 	position: relative;
-	left: -4px;
+	top: 6px;
+	right: -10%;
+	margin-right:30px;
 }
-hr{
+.div_01 p .div_01_img{
+	position: relative;
+	top: 3%;
+	right: -2%;
+}
+.div_01 h2,.div_01 p{
 	display: inline-block;
-	position: relative;
-	top: -9px;
 }
-#div{
-	text-align: center;
-}
-.accout_01,.accout_02,.accout_03,.accout_04{
-	display: inline-block;
-	position: relative;
-	top: 10px;
-}
-.accout_01,.accout_02{
-	left:-28px;
-	color: #87B8F3;
-}
-.accout_01{
+.div_02{
+	width:180px;
+	height: 1461px;
+	background: #33485d;
 	float: left;
 }
-.accout_03{
-	float: right;
-	left:-11px;
+.div_02 li{
+	height: 50px;
+	list-style-type:none;
+	/*text-align: center;*/
+	line-height: 50px;
+	padding: 2% 13%;
+	/*border-bottom: 1px solid #f6f6f6;*/
 }
-.accout_02{
+.div_02 ._01{
+	/*display: none;*/
+}
+.div_02 ._01 a{ 
+	margin-left:15%;
+}
+.div_02 .AA a{
+	color: #3d89d5;
+	font-size: 14px;
+	font-weight: bold;
+}
+.div_02 .div_02_li{
+	background: #2A3C49;
+}
+.div_02 li img{
 	position: relative;
-	left: -14%;
+	top: 9%;
+	left: -6%;
 }
-.accout_04{
-	position: relative;
-	left: 7%;
+.div_02 li a{
+	color: #D4D7D9;
+	text-decoration:none;
 }
+.div_03{
+	/*border: 1px solid #f00;*/
+	width: 99.8%;
+	height: 1436px;
+	background: #f6f6f6;
+	padding-top: 25px;
+}
+.div_03 p{
+	font-size: 12px;
+	color: #333;
+	/*border: 1px solid #00f;*/
+	margin-bottom: 25px;
+	text-indent: 20px;
+}
+.div_03_01{
+	/*border: 1px solid orange;*/
+	width: 88%;
+	height: 1416px;
+	margin-left:10.6%;
+	background: #fff;
+	padding-top: 20px;
+}
+.div_03_01 .manager{
+	width: 98%;
+	height: 1338px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin:0 auto; 
+}
+.div_03_01 .manager .info{
+	height: 36px;
+	line-height: 36px;
+	font-family: '微软雅黑';
+	font-size: 15px;
+	border-bottom: 1px solid #ccc;
+	width:98%;
+	margin: 0 auto;
+}
+/*.div_03_01 .manager .form{
+	width: 44%;
+	height: 520px;
+	border: 1px solid orange;
+	margin:47px 7%; 
+}*/
 .form{
-	padding-top:21px;
+	padding:53px 6%;
 	width: 550px;
 	height: 744px;
-	margin:0 auto;
-	text-align:center;
 }
 .form .effect{
 	position: relative;
@@ -78,7 +140,7 @@ hr{
 }
 .form p .open{
 	position: relative;
-	left: 4%;
+	left: 6%;
 	top: -92px;
 }
 .form p .open_03{
@@ -137,6 +199,10 @@ hr{
 	width: 350px;
 	height: 36px;
 }
+.form .company p{
+	position: relative;
+	left: -24%;
+}
 .form .company h3{
 	text-align: left;
 }
@@ -188,7 +254,7 @@ hr{
 .phone .ticket{
 	position: relative;
 	top: -85px;
-	left: 9%;
+	left: 7%;
 }
 .phone img{
 	margin-left:65px;
@@ -201,6 +267,10 @@ hr{
 .phone a{
 	position: relative;
 	left: -36%;
+}
+.phone p{
+	position: relative;
+	left: -25%;
 }
 .contact h3{
 	text-align: left; 
@@ -221,7 +291,7 @@ hr{
 .contact .ipt_04{
 	left: 13px;
 }
-.form .prev{
+/*.form .prev{
 	width: 100px;
 	background: #f5f8fa;
 	color:#000;
@@ -248,7 +318,9 @@ p{
     color: #333333;
     text-align: right;
     margin: 1px 14px;
-}
+}*/
 .form img{
 	cursor: pointer;
 }
+
+
