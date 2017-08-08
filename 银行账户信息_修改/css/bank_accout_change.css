@@ -133,23 +133,23 @@
 .div_03_01 .manager .name li span{
 	color: #999;
 }
-.div_03_01 .manager .name li h4{
-	/*margin:20px 13%; 
-	cursor: pointer;*/
-	display: inline-block;
-	font-weight: normal;
+.div_03_01 .manager .name li input{
+	width: 230px;
+	height: 30px;
 }
 .div_03_01 .manager .name .selling{
 	margin-left: -6%;
 }
-.div_03_01 .manager .name .selling span{
-	
+.div_03_01 .manager .name .li select{
+	width: 110px;
+	height: 32px;
 }
-.div_03_01 .manager .name .selling a{
-	
+.div_03_01 .manager .name .li .select{
+	margin-left: 10px;
 }
-.div_03_01 .manager .name .status a{
-	
+.div_03_01 .manager .name #bank{
+	width: 230px;
+	height: 30px;
 }
 .div_03_01 table a{
 	

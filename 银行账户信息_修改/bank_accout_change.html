@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>银行账户信息</title>
-		<link type="text/css" rel="stylesheet" href="css/bank_accout.css" />
+		<link type="text/css" rel="stylesheet" href="css/bank_accout_change.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="js/bank_accout.js"></script>
+		<script type="text/javascript" src="js/bank_accout_change.js"></script>
 	</head>
 	<body>
 		<div class="div">
@@ -31,23 +31,43 @@
 				<div class="div_03_01">
 					<p>首页&nbsp;&gt;&nbsp;店铺管理&nbsp;&gt;&nbsp;银行账户信息</p>
 					<div class="manager">
-						<p><span>银行账户信息</span><span class="img"><img src="image/xiugai.png" alt=""><a href="javascript:void(0);">修改</a></span></p>
+						<p><span>银行账户信息</span><span class="img"><img src="image/xiugai.png" alt=""><a href="javascript:void(0);">保存</a></span></p>
 						<div class="name">
 							<li>
 								<span>银行账号：</span>
-								<h4>1234 56789 1234 5678</h4>
+								<input type="text" value="" />
 							</li>
 							<li>
 								<span>开户银行：</span>
-								<h4>中国农业银行</h4>
+								<!-- <input type="text" value="" /> -->
+								<select name="bank" id="bank">
+									<option value="请选择银行">请选择银行</option>
+									<option value="请选择银行">中国工商银行</option>
+									<option value="请选择银行">中国农业银行</option>
+									<option value="请选择银行">中国建设银行</option>
+									<option value="请选择银行">中国交通银行</option>
+								</select>
 							</li>
-							<li>
+							<li class="li">
 								<span>开户地点：</span>
-								<h4>浙江省 杭州市</h4>
+								<select name="province" id="province">
+									<option value="请选择省份">请选择省份</option>
+									<option value="请选择省份">北京市</option>
+									<option value="请选择省份">上海市</option>
+									<option value="请选择省份">广州市</option>
+									<option value="请选择省份">深圳市</option>
+								</select>
+								<select class="select" name="province" id="province">
+									<option value="请选择省份">请选择市、区、县</option>
+									<option value="请选择省份">北京市</option>
+									<option value="请选择省份">上海市</option>
+									<option value="请选择省份">广州市</option>
+									<option value="请选择省份">深圳市</option>
+								</select>
 							</li>
 							<li class="selling">
 								<span>开户银行名称：</span>
-								<h4>农业银行西湖分行</h4>
+								<input type="text" value="" />
 							</li>
 							<!-- 用于测试弹窗 <input type="file" value="123" /> -->
 						</div>
