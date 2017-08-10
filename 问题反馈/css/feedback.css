@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.div_01{
+	background: #3e89d5;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+}
+.div_01 h2,.div_01 p span{
+	color: #E8F0F8;
+}
+.div_01 h2{
+	font-size: 18px;
+	margin-left: 22px;
+}
+.div_01 p{
+	float: right;
+	margin-right: 20px;
+}
+.div_01 p img{
+	position: relative;
+	top: 6px;
+	right: -10%;
+	margin-right:30px;
+}
+.div_01 p .div_01_img{
+	position: relative;
+	top: 3%;
+	right: -2%;
+}
+.div_01 h2,.div_01 p{
+	display: inline-block;
+}
+.div_02{
+	width:180px;
+	height: 860px;
+	background: #33485d;
+	float: left;
+}
+.div_02 li{
+	height: 50px;
+	list-style-type:none;
+	/*text-align: center;*/
+	line-height: 50px;
+	padding: 2% 13%;
+	/*border-bottom: 1px solid #f6f6f6;*/
+}
+.div_02 ._01{
+	/*display: none;*/
+}
+.div_02 ._01 a{ 
+	margin-left:15%;
+}
+.div_02 .AA a{
+	color: #3d89d5;
+	font-size: 14px;
+	font-weight: bold;
+}
+.div_02 .div_02_li{
+	background: #2A3C49;
+}
+.div_02 li img{
+	position: relative;
+	top: 9%;
+	left: -6%;
+}
+.div_02 li a{
+	color: #D4D7D9;
+	text-decoration:none;
+}
+.div_03{
+	/*border: 1px solid #f00;*/
+	width: 99.8%;
+	height: 833px;
+	background: #f6f6f6;
+	padding-top: 25px;
+}
+.div_03 p{
+	font-size: 12px;
+	color: #333;
+	/*border: 1px solid #00f;*/
+	margin-bottom: 25px;
+	text-indent: 20px;
+}
+.div_03_01{
+	/*border: 1px solid orange;*/
+	width: 88%;
+	height: 814px;
+	margin-left:10.6%;
+	background: #fff;
+	padding-top: 20px;
+}
+.div_03_01 .first_page a{
+	color:#3F88D5;
+	text-decoration: none;
+	margin-left: 89%;
+	font-family: '微软雅黑';
+}
+.div_03_01 .manager{
+	width: 98%;
+	height: 735px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin:0 auto; 
+}
+.div_03_01 .manager .money{
+	font-size: 15px;
+	border-bottom: 1px solid #ccc;
+	width: 98%;
+	height: 36px;
+	line-height: 36px;
+	margin:0 auto;
+}
+.div_03_01 .manager .name .detail{
+	/*display: inline-block;*/
+	/*color: #f00;*/
+	position: relative;
+	top: -230px;
+}
+.div_03_01 .manager .name .detail_01{
+	/*text-decoration: none;*/
+	/*color: #999;
+	margin-left: 1%;*/
+	position: relative;
+	top: -88px;
+}
+.div_03_01 .manager .name .number{
+	/*margin-right: 10px;*/
+	/*font-weight: normal;*/
+}
+.div_03_01 .manager .name{
+	width: 90%;
+	height: 520px;
+	margin:40px 2%; 
+}
+.div_03_01 .manager .name li .charge_01{
+	/*position: relative;
+	left: 2%;*/
+}
+.div_03_01 .manager .name button{
+	width: 100px;
+	height: 30px;
+	background: #3D8AD5;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin:30px 6%;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.div_03_01 .manager .name li input{
+	/*width: 150px;
+	height: 30px;*/
+}
+.div_03_01 .manager .name li textarea{
+	/*display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: #3C89D4;
+	color: #fff;
+	line-height: 30px;
+	font-size: 13px;
+	text-align:center;
+	font-family: '微软雅黑';
+	cursor: pointer;*/
+	padding: 10px;
+}
+.div_03_01 .manager .name li{
+	list-style-type:none;
+	line-height: 60px;
+}
+.div_03_01 .manager .name li img{
+	/*color: #999;*/
+	/*display: inline-block;*/
+	cursor: pointer;
+}
+.div_03_01 .manager .name li span{
+	color: #999;
+}
+.div_03_01 .manager .name .pay{
+	/*margin:20px 13%; 
+	cursor: pointer;*/
+	/*display: inline-block;
+	font-weight: normal;*/
+	/*margin-left:-5%;*/
+}
+.div_03_01 .manager .name .selling{
+	/*margin-left: -6%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
