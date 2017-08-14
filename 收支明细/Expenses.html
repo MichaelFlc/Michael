@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>收支明细_详情</title>
+		<title>收支明细</title>
 		<link type="text/css" rel="stylesheet" href="css/Expenses.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -31,49 +31,115 @@
 				<div class="div_03_01">
 					<p class="first_page">首页&nbsp;&gt;&nbsp;收支明细<a href="javascript:void(0);">返回上一步</a></p>
 					<div class="manager">
-						<p class="money">
-							<span class="charge">交易详情</span>
-							<span class="accout_balance">交易成功</span>
-							<!-- <span class="number">8007.00</span>元 -->
-						</p>
+						<div class="list">
+							<li>
+								<span class="time">时间：</span>
+								<input type="text" value="2017-7-28" />&nbsp;-&nbsp;
+								<input type="text" value="2017-7-28" />
+								<span class="month">最近：</span>
+								<span class="month month_01 month_02">一个月</span>
+								<span class="month month_02">三个月</span>
+								<span class="month month_02">一年</span>
+							</li>
+							<li>
+								<span class="time">分类：</span>
+								<a class="pay" href="javascript:void(0);">全部</a>
+								<a href="javascript:void(0);">收入</a>
+								<a href="javascript:void(0);">支出</a>
+								<a href="javascript:void(0);">充值</a>
+								<a href="javascript:void(0);">提现</a>
+							</li>
+							<li>
+								<span class="time">状态：</span>
+								<a class="pay" href="javascript:void(0);">全部</a>
+								<a href="javascript:void(0);">交易成功</a>
+								<a href="javascript:void(0);">交易关闭</a>
+								<a href="javascript:void(0);">交易中</a>
+							</li>
+						</div>
 						<div class="name">
-							<li class="BankCard">
-								<span>交易类型：</span>
-								<!-- <img src="image/btn-danxuan-pre.png" alt="" /> -->
-								<!-- <h4 class="number">8000.00</h4>元 -->
-								<h4>收入</h4>
-							</li>
-							<li>
-								<span>对方名称：</span>
-								<span class="charge_01">米老鼠</span>
-								<!-- <span class="Free_Service">免服务费</span> -->
-							</li>
-							<li class="selling">
-								<span>交易金额（元）：</span>
-								<h4 class="h4">109.00</h4>
-							</li>
-							<li class="get">
-								<span>交易号：</span>
-								<!-- &nbsp;<input type="text" value="" /> -->
-								<span class="number">1345698756931245</span>
-							</li>
-							<li class="Payment_Date">
-								<span>创建时间：</span>
-								<!-- <img src="image/btn-danxuan-pre.png" alt="" /> -->
-								<span class="number">2017-07-28 14:48</span>
-							</li>
-							<li>
-								<span>付款时间：</span>
-								<!-- <img src="image/btn-danxuan-pre.png" alt="" /> -->
-								<span class="number">2017-07-28 14:48</span>
-							</li>
-							<li>
-								<span>结束时间：</span>
-								<!-- <img src="image/btn-danxuan-pre.png" alt="" /> -->
-								<span class="number">2017-07-28 14:48</span>
-							</li>
-							<!-- <button>提交</button> -->
-							<!-- 用于测试弹窗 <input type="file" value="123" /> -->
+							<table cellpadding="0" cellspacing="0">
+								<tr style="background: #D9EDFF;">
+									<td>类型</td>
+									<td>创建时间</td>
+									<td>名称</td>
+									<td>金额（元）</td>
+									<td>状态</td>
+									<td>操作</td>
+								</tr>
+								<tr>
+									<th>充值</th>
+									<th>2017-07-28 11:56</th>
+									<th>米老鼠</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr style="background: #F5F9FD;">
+									<th>充值</th>
+									<th>2017-07-28 11:56</th>
+									<th>米老鼠</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr>
+									<th>提现</th>
+									<th>2017-07-28 11:56</th>
+									<th>米老鼠</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr style="background: #F5F9FD;">
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr>
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr style="background: #F5F9FD;">
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr>
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr style="background: #F5F9FD;">
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+								<tr>
+									<th>收入</th>
+									<th>2017-07-28 11:56</th>
+									<th>招财猫</th>
+									<th class="money">+109.00</th>
+									<th>交易成功</th>
+									<th><a href="javascript:void(0);">详情</a></th>
+								</tr>
+							</table>
 						</div>
 					</div>
 				</div>

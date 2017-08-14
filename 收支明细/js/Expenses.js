@@ -1,17 +1,5 @@
 $(document).ready(function(){
 
-	$('.div_02 .BB').click(function(){
-		$('.div_02 ._01').toggle();
-	});
-
-	$('.four_img').click(function(){
-		// var idx=$('.four').index();
-		// $('.four').index()=$('.five').index();
-		// $('.five').index()=$(idx);
-		$('.five').insertBefore($('.four'));
-	});
-
-
 	//点击图片弹出选择文件的框框
 	 // $('.name li img').click(function(){
 	 // 	click();
@@ -20,5 +8,24 @@ $(document).ready(function(){
 	 // 	$('input').trigger('click');
 	 // };
 	 //弹框结束
+
+	 $('.list li').eq(1).find('a').click(function(){
+	 	// $('.list li').eq(1).children().removeClass();
+	 	$(this).addClass('pay').siblings().removeClass();
+	 });
+	 $('.list li').eq(2).find('a').click(function(){
+	 	// $('.list li').eq(1).children().removeClass();
+	 	$(this).addClass('pay').siblings().removeClass();
+	 });
+	 $('.list li').eq(0).find('.month_02').click(function(){
+	 	// $('.list li').eq(1).children().removeClass();
+	 	$(this).addClass('month_01').siblings().removeClass('month_01');
+	 	$(this).css('fontSize','15px').siblings().css('fontSize','');
+	 });
+
+
+	 // $($('.list li').eq(1).find('a'),$('.list li').eq(2).find('a')).on('click',function(){
+	 // 	$(this).addClass('pay').siblings().removeClass();
+	 // });
 
 });
