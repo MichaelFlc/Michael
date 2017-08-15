@@ -4,9 +4,11 @@
 		<meta charset="UTF-8">
 		<title>收支明细</title>
 		<link type="text/css" rel="stylesheet" href="css/Expenses.css" />
+		<link rel="stylesheet" type="text/css" href="css/page.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="js/Expenses.js"></script>
+		<script type="text/javascript" src="js/page.js"></script>
 	</head>
 	<body>
 		<div class="div">
@@ -141,6 +143,22 @@
 								</tr>
 							</table>
 						</div>
+						<!-- 分页开始 -->
+						<div class="zzsc">
+							<ul class="page" maxshowpageitem="5" pagelistcount="10" id="page"></ul>
+							<!-- <script type="text/javascript">
+								function tt(dd){
+									
+								}
+								var GG={
+									'kk':function(mm){
+
+									}
+								}
+								$('#page').initPage(71,1,GG.kk);
+							</script> -->
+						</div>
+						<!-- 分页结束 -->
 					</div>
 				</div>
 			</div>

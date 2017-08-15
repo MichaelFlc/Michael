@@ -8,6 +8,9 @@ $(document).ready(function(){
 	 // 	$('input').trigger('click');
 	 // };
 	 //弹框结束
+	 $('.div_02 .BB').click(function(){
+		$('.div_02 ._01').toggle();
+	});
 
 	 $('.list li').eq(1).find('a').click(function(){
 	 	// $('.list li').eq(1).children().removeClass();

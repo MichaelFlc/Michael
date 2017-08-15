@@ -86,124 +86,115 @@
 }
 .div_03_01{
 	/*border: 1px solid orange;*/
-	width: 84%;
+	width: 83%;
 	height: 814px;
 	margin-left:10.6%;
 	background: #fff;
 	padding-top: 20px;
 }
-.div_03_01 .first_page{
-	border-bottom: 1px solid #e8e8e8;
-	width: 97%;
-	height: 34px;
-	margin:0 auto;
-	line-height: 18px;
-}
 .div_03_01 .first_page a{
 	color:#3F88D5;
 	text-decoration: none;
-	margin-right: 2%;
-	font-family: '微软雅黑';
-	float: right;
+	margin-left: 89%;
+	font-family: '寰蒋闆呴粦';
 }
 .div_03_01 .manager{
-	width: 98%;
-	height: 735px;
+	width: 100%;
+	height: 129px;
 	/*border: 1px solid #ccc;*/
 	border-radius: 6px;
-	margin:0 auto;
+	margin:0 auto; 
 }
-.div_03_01 .manager .list{
+.div_03_01 .manager table{
 	/*font-size: 15px;
-	border-bottom: 1px solid #ccc;
-	width: 98%;
-	height: 36px;
-	line-height: 36px;
+	border-bottom: 1px solid #ccc;*/
+	width: 100%;
+	height: 129px;
+	border: none;
+	/*line-height: 36px;
 	margin:0 auto;*/
-	width: 99%;
-	height: 134px;
-	/*border:1px solid #ccc;*/
-	margin: 10px;
-	padding-left: 23px;
 }
-.div_03_01 .manager .list li{
-	list-style-type:none;
-	line-height: 43px;
-}
-.div_03_01 .manager .list li a{
+.div_03_01 .manager table tr th a{
 	text-decoration: none;
-	color: #000;
-	margin-left: 3%;
-	position: relative;
-	left: -3%;
-	width: 81px;
+	color: #3D89D7;
+	font-size: 15px;
+}
+.div_03_01 .manager table tr th,td{
+	/*text-decoration: none;*/
+	/*color: #999;
+	margin-left: 1%;*/
+}
+.div_03_01 .manager table .add_child_accout{
+	background: #2A8AF0;
+	color: #fff;
+	width: 120px;
+	height: 100px;
+}
+.div_03_01 .manager table .name td,th{
+	/*width: 1%;*/
+	/*height: 520px;
+	margin:40px 8%; */
+}
+.div_03_01 .manager .name li .charge_01{
+	/*position: relative;
+	left: 2%;*/
+}
+.div_03_01 .manager .name button{
+	/*width: 150px;
 	height: 30px;
-	border:1px solid #ccc;
-	display: inline-block;
+	background: #3D8AD5;
 	text-align: center;
 	line-height: 30px;
-	font-size: 14px;
-}
-.div_03_01 .manager .list li input{
-	width: 100px;
-	height: 30px;
-	text-align: center;
-}
-.div_03_01 .manager .name{
-	width: 100%;
-	height: 576px;
-	/*margin:40px 8%; */
-	position: relative;
-	left: 1%;
-	/*border:1px solid #ccc;*/
-}
-.div_03_01 .manager .list .pay{
-	background: #3D8AD5;
 	color: #fff;
+	margin:30px 11%;
+	border: none;
 	border-radius: 3px;
+	cursor: pointer;*/
 }
-.div_03_01 .manager .list li .month{
-	margin-left: 1%;
-	cursor: pointer;
+.div_03_01 .manager .name li input{
+	/*width: 150px;
+	height: 30px;*/
 }
-.div_03_01 .manager .list li .time{
-	color: #999;	
+.div_03_01 .manager .name li .get{
+	/*display: inline-block;
+	width: 80px;
+	height: 30px;
+	background: #3C89D4;
+	color: #fff;
+	line-height: 30px;
+	font-size: 13px;
+	text-align:center;
+	font-family: '寰蒋闆呴粦';
+	cursor: pointer;*/
 }
-.div_03_01 .manager .name table{
-	width: 102%;	
-	line-height: 50px;
-	margin-left: -2%;
+.div_03_01 .manager .name li{
+	/*list-style-type:none;
+	line-height: 46px;*/
 }
-.div_03_01 .manager .name table td{
-	text-align: center;
+.div_03_01 .manager .name li h4{
+	/*color: #999;*/
+	/*display: inline-block;*/
 }
-.div_03_01 .manager .name table th{ 
-	font-weight: normal;
-}
-.div_03_01 .manager .name table tr .money{
-	color: #3D8AD5;
-}
-.div_03_01 .manager .name table tr th a{
-	text-decoration:none;
-	color:#3D8AD5;
-}
-.div_03_01 .manager .list .month_01{
-	color:#3D8AD5;
-	font-weight: bold;
+.div_03_01 .manager .name li span{
+	/*color: #999;*/
 }
 .div_03_01 .manager .name li .Free_Service{
-	
+	/*margin:20px 13%; 
+	cursor: pointer;*/
+	/*display: inline-block;
+	font-weight: normal;*/
+	/*margin-left:-5%;*/
+	/*margin:12%;
+	position: relative;
+	top: -6px;*/
 }
-.div_03_01 .manager .name .get{
-	
-}
-.div_03_01 .manager .name .BankCard h4{
-	
-}
-.div_03_01 .manager .name .number{
-	
-}
+.div_03_01 .manager .name .BankCard{
+	/*margin-left: -2%;*/
 
+}
+.div_03_01 .manager .name .Payment_Date{
+	/*margin-left: -2%;*/
+}
 
 
 
