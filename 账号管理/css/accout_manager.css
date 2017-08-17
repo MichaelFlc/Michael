@@ -100,46 +100,77 @@
 }
 .div_03_01 .manager{
 	width: 100%;
-	height: 129px;
+	height: 153px;
 	/*border: 1px solid #ccc;*/
 	border-radius: 6px;
-	margin:0 auto; 
+	margin:0 auto;
+}
+.div_03_01 .manager .add_child_accout{
+	background: #F5F8FD;
+	height: 45px;
+	display: block;
+}
+.div_03_01 .manager .add_child_accout a{
+	text-decoration: none;
+	background: #2A8AF0;
+	color: #fff;
+	float: right;
+	font-size: 14px;
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
 }
 .div_03_01 .manager table{
 	/*font-size: 15px;
 	border-bottom: 1px solid #ccc;*/
 	width: 100%;
-	height: 129px;
+	height: 108px;
 	border: none;
+	text-align:center;
 	/*line-height: 36px;
 	margin:0 auto;*/
+	font-size: 15px;
 }
-.div_03_01 .manager table tr th a{
+.div_03_01 .manager table tr{
+
+}
+.div_03_01 .manager table tr td a{
 	text-decoration: none;
 	color: #3D89D7;
 	font-size: 15px;
+	margin-right:5%;
+	position: relative;
+	right: -3%; 
 }
-.div_03_01 .manager table tr th,td{
-	/*text-decoration: none;*/
-	/*color: #999;
-	margin-left: 1%;*/
+.div_03_01 .select{
+	width: 279px;
+	height: 137px;
+	border-radius: 7px;
+	background: orange;
+	text-align: center;
+	line-height: 137px;
 }
-.div_03_01 .manager table .add_child_accout{
-	background: #2A8AF0;
+.div_03_01 .select li{
+	list-style-type: none;
+}
+.div_03_01 .select .img{
+	/*background: #2A8AF0;
 	color: #fff;
 	width: 120px;
-	height: 100px;
+	text-align: center;
+	font-size: 14px;*/
 }
-.div_03_01 .manager table .name td,th{
-	/*width: 1%;*/
+.div_03_01 .manager table tr td{
+	width: 1%;
 	/*height: 520px;
 	margin:40px 8%; */
 }
-.div_03_01 .manager .name li .charge_01{
+.div_03_01 .select .confirm{
 	/*position: relative;
 	left: 2%;*/
 }
-.div_03_01 .manager .name button{
+.div_03_01 .select .cancel{
 	/*width: 150px;
 	height: 30px;
 	background: #3D8AD5;
@@ -151,21 +182,8 @@
 	border-radius: 3px;
 	cursor: pointer;*/
 }
-.div_03_01 .manager .name li input{
-	/*width: 150px;
-	height: 30px;*/
-}
-.div_03_01 .manager .name li .get{
-	/*display: inline-block;
-	width: 80px;
-	height: 30px;
-	background: #3C89D4;
-	color: #fff;
-	line-height: 30px;
-	font-size: 13px;
-	text-align:center;
-	font-family: '寰蒋闆呴粦';
-	cursor: pointer;*/
+.div_03_01 .select li a{
+	text-decoration: none;
 }
 .div_03_01 .manager .name li{
 	/*list-style-type:none;
