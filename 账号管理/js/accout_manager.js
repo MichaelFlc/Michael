@@ -20,5 +20,19 @@ $(document).ready(function(){
 	 // 	$('input').trigger('click');
 	 // };
 	 //弹框结束
+	 
+	 $('.manager table tr').eq(1).find('td').eq(4).find('a').eq(2).click(function(){
+	 	$('.background').css('display','block');
+	 	$('.select').css('display','block');
+	 });
+	 $('.cancel').click(function(){
+	 	$('.background').css('display','');
+	 	$('.select').css('display','');
+	 });
+	 $('.confirm').click(function(){
+	 	$('.manager table tr').eq(1).css('display','none');
+	 	$('.background').css('display','none');
+	 	$('.select').css('display','none');
+	 });
 
 });
